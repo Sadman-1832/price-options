@@ -1,8 +1,7 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './components/Navbar/Navbar'
+import PriceOptions from './components/PriceOptions/PriceOptions'
 // import DaisyUi from './components/DaisyUi/DaisyUi'
 
 function App() {
@@ -10,11 +9,10 @@ function App() {
 
   return (
     <>
-    {/* <DaisyUi></DaisyUi> */}
-    <Navbar></Navbar>
-     <h1 className='text-4xl font-serif font-bold'>Hello World!</h1>
+      <Navbar></Navbar>
+      <h1 className='text-4xl font-serif font-bold'>Hello World!</h1>
+      <PriceOptions></PriceOptions>
 
-     
     </>
   )
 }
